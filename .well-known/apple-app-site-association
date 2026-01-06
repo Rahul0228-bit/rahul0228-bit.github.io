@@ -1,0 +1,9 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [{
+      "appID": "TEAM_ID.com.gamestown.word.puzzle.game",
+      "paths": ["/playwords.github.io/join", "/playwords.github.io/join/*", "/playwords.github.io/join?*"]
+    }]
+  }
+}

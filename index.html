@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Words! - Word Puzzle Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 64px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            color: #667eea;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .feature:last-child {
+            border-bottom: none;
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            width: 40px;
+            text-align: center;
+        }
+
+        .feature-text {
+            color: #555;
+            font-size: 16px;
+        }
+
+        .store-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .store-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #000;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+
+        .store-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎮</div>
+        <h1>Play Words!</h1>
+        <p class="tagline">The Ultimate Word Puzzle Game</p>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">🎯</span>
+                <span class="feature-text">Challenge your vocabulary with exciting word puzzles</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">👥</span>
+                <span class="feature-text">Play with friends in real-time multiplayer mode</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🏆</span>
+                <span class="feature-text">Compete for high scores and climb the leaderboard</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🎨</span>
+                <span class="feature-text">Beautiful design and smooth gameplay</span>
+            </div>
+        </div>
+
+        <p style="color: #666; margin-bottom: 15px;">Download now and start playing!</p>
+
+        <div class="store-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.gamestown.word.puzzle.game" class="store-btn">
+                <span>📱</span>
+                <span>Google Play</span>
+            </a>
+            <a href="https://apps.apple.com/app/id0000000000" class="store-btn">
+                <span>🍎</span>
+                <span>App Store</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 GamesTown. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

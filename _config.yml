@@ -1,0 +1,8 @@
+# GitHub Pages configuration for Play Words deep linking
+
+# Include .well-known directory (hidden by default)
+include: [".well-known"]
+
+# Site settings
+title: Play Words
+description: Word Puzzle Game - Join your friends!
